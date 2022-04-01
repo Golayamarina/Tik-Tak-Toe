@@ -5,7 +5,7 @@ const { createModuleResolutionCache } = require("typescript");
 describe("TikTakToe", function() {
     let acc1
     let acc2
-    let payments
+    let tikTakToe
 
     beforeEach(async function() {
        [acc1, acc2] = await ethers.getSigners()
